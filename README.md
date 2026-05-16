@@ -100,11 +100,10 @@ Security-related responsibilities included:
 
 ## Current Focus and Goals
 
-- Accepted for Master of Information Technology at University of Waikato,
-  New Zealand — commencing February 2027
+- Applying for Masters in Information Technology with specialization focused on Cybersecurity and Networking
 - Expanding practical cybersecurity skills through independent study
 - Applying cybersecurity knowledge to real small business environment
-- Planning to complete CompTIA Security+ certification
+- Planning to complete, Google Cybersecurity, CompTIA Security+, and Blue Team Labs Level 1 certification 
 
 ---
 
