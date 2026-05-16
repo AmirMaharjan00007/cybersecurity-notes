@@ -1,0 +1,315 @@
+# Social Engineering and Phishing
+
+Notes from Security (BTEC Level 5) and Advanced Cyber Security CET324
+(BSc Computer Systems Engineering, University of Sunderland)
+— Amir Maharjan
+
+This topic holds particular personal significance. During my IT Systems
+Administrator internship, my wife became the victim of an online financial
+scam using social engineering techniques. That experience directly
+motivated my decision to specialise in cybersecurity and drives my
+commitment to building digital safety awareness in Nepal.
+
+---
+
+## 1. What is Social Engineering?
+
+Social engineering is the psychological manipulation of people into
+performing actions or divulging confidential information. Unlike
+technical attacks that target systems and software, social engineering
+targets the human element — exploiting trust, fear, urgency, authority,
+and curiosity rather than technical vulnerabilities.
+
+Social engineering is consistently identified as the most effective
+and most commonly used attack vector globally because:
+
+- Humans are inherently trusting
+- People want to be helpful
+- Authority and urgency override careful thinking
+- Technical defences cannot fully protect against human error
+- It requires no technical expertise to execute basic attacks
+
+---
+
+## 2. Types of Social Engineering Attacks
+
+### Phishing
+Mass fraudulent communications — usually email — impersonating
+legitimate organisations to steal credentials or financial information.
+
+**Characteristics:**
+- Sent to large numbers of recipients
+- Impersonates trusted brands — banks, government, payment platforms
+- Creates urgency — "Your account will be suspended"
+- Contains malicious links or attachments
+- Uses lookalike domains — paypa1.com instead of paypal.com
+
+**Real Nepal context:**
+- Fake eSewa and Khalti notifications
+- Fraudulent bank alert emails
+- Fake prize winning notifications
+- Government impersonation emails
+
+### Spear Phishing
+Highly targeted phishing aimed at specific individuals using
+personalised information to increase credibility.
+
+**Characteristics:**
+- Uses victim's name, employer, colleagues, or recent activities
+- Appears to come from known contacts
+- Much higher success rate than generic phishing
+- Often used against business executives and employees with
+  financial access
+
+### Vishing — Voice Phishing
+Fraudulent phone calls impersonating legitimate organisations.
+
+**Common scenarios in Nepal:**
+- Caller claims to be from bank fraud department
+- Caller claims victim has won a prize
+- Caller impersonates government tax authority
+- Caller claims to be from eSewa or Khalti support
+- Caller creates urgency to prevent victim from thinking carefully
+
+**Red flags:**
+- Unsolicited calls asking for personal information
+- Caller creating extreme urgency
+- Requests for OTP codes — legitimate organisations never ask for OTP
+- Requests to install remote access applications
+
+### Smishing — SMS Phishing
+Fraudulent text messages containing malicious links or requesting
+sensitive information.
+
+**Common scenarios:**
+- Fake delivery notification with tracking link
+- Fake bank alert with link to verify account
+- Fake prize notification requesting personal details
+- Fake government notification
+
+### Pretexting
+Creating a fabricated scenario to manipulate a victim into providing
+information or taking action.
+
+**Examples:**
+- Attacker pretends to be IT support needing login credentials
+- Attacker pretends to be auditor needing financial records
+- Attacker pretends to be new employee needing access
+- Attacker pretends to be vendor needing account details
+
+### Baiting
+Enticing victims with something appealing to deliver malware or
+steal credentials.
+
+**Examples:**
+- Infected USB drives left in public places
+- Free software downloads containing malware
+- Free movie or music downloads with embedded malicious code
+- Fake prize websites requiring account registration
+
+### Quid Pro Quo
+Offering a service or benefit in exchange for information.
+
+**Examples:**
+- Fake IT support offering to fix computer problems in exchange
+  for remote access
+- Fake survey offering prize in exchange for personal information
+- Fake job offer requiring personal documents upfront
+
+### Tailgating and Piggybacking
+Physical social engineering — gaining unauthorised physical access
+by following authorised personnel.
+
+- Tailgating — following someone through a secure door without
+  their knowledge
+- Piggybacking — victim knowingly holds door for attacker
+  out of politeness
+
+---
+
+## 3. Psychological Principles Exploited
+
+Social engineers exploit fundamental human psychological tendencies:
+
+### Authority
+People comply with requests from perceived authority figures.
+- Attacker impersonates boss, IT department, bank, government
+- Victim feels obligated to comply without questioning
+
+### Urgency and Scarcity
+Creating time pressure prevents careful thinking.
+- "Your account will be closed in 24 hours"
+- "Act now or lose your money"
+- "Limited time offer"
+
+### Social Proof
+People follow what others appear to be doing.
+- "Everyone in your company has already updated their details"
+- "Other customers have already verified their accounts"
+
+### Liking and Familiarity
+People comply more readily with people they like or know.
+- Attacker researches victim on social media to establish rapport
+- Uses names of mutual connections to build trust
+
+### Fear
+Fear of loss, punishment, or negative consequences drives hasty action.
+- "Your account has been compromised"
+- "You owe unpaid taxes — pay immediately to avoid legal action"
+- "Suspicious activity detected on your account"
+
+### Reciprocity
+People feel obligated to return favours.
+- Attacker provides small genuine help before making request
+- Victim feels social obligation to comply
+
+---
+
+## 4. Real World Case Study — Personal Experience
+
+During my IT Systems Administrator internship at Addon Engineering
+Solutions (September 2024 to February 2025), my wife became the
+victim of an online financial scam.
+
+The attack used classic social engineering techniques:
+- Created a false sense of urgency
+- Impersonated a legitimate platform or contact
+- Exploited trust and digital unfamiliarity
+- Resulted in financial loss
+
+As an IT professional, I understood the mechanics of what had happened.
+But understanding it technically did not mean I had been able to
+protect the person closest to me from becoming a victim. That gap
+between technical knowledge and practical protection felt personally
+unacceptable.
+
+This experience highlighted several realities about Nepal's
+cybersecurity landscape:
+
+1. Technical knowledge alone is insufficient — awareness education
+   is equally critical
+2. Ordinary people with no technical background are extremely
+   vulnerable to well-crafted social engineering
+3. Digital payment platforms in Nepal — while convenient — have
+   created new attack surfaces that many users do not understand
+4. The human element of security cannot be addressed through
+   technology alone
+
+This personal experience is the direct origin of my commitment to
+cybersecurity specialisation and my goal of contributing to
+cybersecurity awareness and education in Nepal upon completing
+the Master of Information Technology at the University of Waikato.
+
+---
+
+## 5. Defending Against Social Engineering
+
+### Individual Defences
+
+**Verify before you trust:**
+- Always verify the identity of anyone requesting sensitive information
+- Call back on a known official number — not the number provided
+  by the caller
+- Check email sender address carefully — not just the display name
+- Never click links in unsolicited emails — go directly to the website
+
+**Protect your OTP:**
+- One Time Passwords should NEVER be shared with anyone
+- Legitimate banks and payment platforms never ask for OTP
+- If someone asks for your OTP they are attempting fraud
+
+**Slow down under pressure:**
+- Urgency is a manipulation tactic
+- Legitimate organisations do not require immediate action
+  without time to verify
+- If pressured — hang up, close the email, and verify independently
+
+**Protect personal information:**
+- Limit personal information shared on social media
+- Be cautious about what you post publicly
+- Information shared online can be used to craft convincing attacks
+
+### Organisational Defences
+
+**Security awareness training:**
+- Regular training for all staff on recognising social engineering
+- Simulated phishing exercises to test awareness
+- Clear reporting procedures for suspected attacks
+
+**Verification procedures:**
+- Multi-step verification for sensitive requests
+- Callback procedures for financial transactions
+- Out-of-band verification — confirm via different channel
+
+**Technical controls:**
+- Email filtering and anti-phishing tools
+- Multi-factor authentication on all accounts
+- Privileged access management
+- Security information and event management (SIEM)
+
+**Policies:**
+- Clear policy on handling unsolicited requests for information
+- No exceptions to verification procedures regardless of urgency
+- Incident reporting culture — staff not blamed for reporting
+  suspicious activity
+
+---
+
+## 6. Social Engineering in Nepal — Specific Context
+
+### Most Common Scams in Nepal (2024-2025)
+
+**Mobile Payment Scams:**
+Fraudsters impersonating eSewa, Khalti, or FonePay support staff
+requesting OTPs or account credentials under pretexts such as
+account verification or prize winning.
+
+**Facebook and Instagram Scams:**
+- Hijacked business accounts used to scam followers
+- Fake investment opportunity pages
+- Fake product sellers collecting payment then disappearing
+- Romance scams targeting individuals through fake profiles
+
+**Phone Scams:**
+- Callers impersonating Nepal Telecom or NCells
+- Callers impersonating bank fraud departments
+- Callers offering fake jobs requiring upfront payment
+
+**WhatsApp and Viber Scams:**
+- Messages from hijacked contacts requesting money urgently
+- Fake job offers requiring personal document submission
+- Investment scams promising high returns
+
+### Why Nepal is Particularly Vulnerable
+- Rapid digital adoption without corresponding security education
+- Limited cybersecurity awareness programmes at national level
+- Cultural tendency toward politeness making it difficult to
+  refuse or question authority figures
+- Many first-time digital payment users unfamiliar with security
+  practices
+- Limited regulatory enforcement of cybercrime
+
+### My Commitment
+Understanding and addressing social engineering attacks in the
+Nepali context is central to my professional mission. The
+Master of Information Technology at the University of Waikato
+will provide me with the advanced knowledge needed to contribute
+meaningfully to both technical defences and public awareness
+education in Nepal.
+
+---
+
+## 7. Key Takeaways
+
+- Social engineering targets humans not systems
+- Psychological manipulation is more effective than technical attacks
+- No amount of technology fully protects against human error
+- Education and awareness are the most powerful defences
+- Verification procedures and a healthy scepticism are essential
+- Nepal faces significant and growing social engineering threats
+  that require trained professionals to address
+
+---
+
+*Last updated: May 2026*
+*Amir Maharjan — Kathmandu, Nepal*
